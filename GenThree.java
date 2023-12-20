@@ -5,7 +5,7 @@ public class GenThree {
          creating numbers array for later use. */
         int min = Math.min(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
         int max = Math.max(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
-        int range = max-min +1;
+        int range = max-min;
         int[] numbers = new int[3];
         
         // Printing 3 random numbers and storing them in numbers array
